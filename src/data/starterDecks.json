@@ -1,0 +1,62 @@
+[
+  {
+    "id": "starter-react-fundamentals",
+    "title": "React Fundamentals",
+    "description": "Core concepts: state, hooks, props, and rendering.",
+    "createdAt": "2026-11-25T10:00:00.000Z",
+    "recentScores": [],
+    "cards": [
+      {
+        "id": "starter-react-1",
+        "front": "Why must React state updates be immutable?",
+        "back": "React compares object references to detect changes and decide when to re-render components.",
+        "needsPractice": true
+      },
+      {
+        "id": "starter-react-2",
+        "front": "When should you prefer useReducer over useState?",
+        "back": "When state logic involves multiple sub-values or complex transitions where the next state depends on the previous one.",
+        "needsPractice": false
+      },
+      {
+        "id": "starter-react-3",
+        "front": "What does the <Outlet /> component do in React Router?",
+        "back": "It acts as a placeholder inside a parent route layout where matching child routes are rendered.",
+        "needsPractice": true
+      },
+      {
+        "id": "starter-react-4",
+        "front": "What is a controlled form input in React?",
+        "back": "An input whose value is driven by React state and updated through an onChange event handler.",
+        "needsPractice": false
+      }
+    ]
+  },
+  {
+    "id": "starter-web-accessibility",
+    "title": "Web Accessibility (a11y)",
+    "description": "Essential practices for keyboard navigation, semantics, and ARIA.",
+    "createdAt": "2026-11-25T10:05:00.000Z",
+    "recentScores": [],
+    "cards": [
+      {
+        "id": "starter-a11y-1",
+        "front": "Why should icon-only buttons include an aria-label?",
+        "back": "Because there is no visible text for screen readers to announce the button's purpose.",
+        "needsPractice": true
+      },
+      {
+        "id": "starter-a11y-2",
+        "front": "Why use semantic HTML elements like <main>, <nav>, and <button>?",
+        "back": "They provide built-in keyboard behavior and landmark navigation for assistive technologies.",
+        "needsPractice": false
+      },
+      {
+        "id": "starter-a11y-3",
+        "front": "What is the purpose of proper heading hierarchy (h1 to h3)?",
+        "back": "It creates a clear document outline that helps screen reader users jump directly between sections.",
+        "needsPractice": false
+      }
+    ]
+  }
+]
